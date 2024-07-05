@@ -1,0 +1,14 @@
+.hide {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+  }
+  
+  .show {
+    opacity: 1;
+    max-height: 1000px;
+    overflow: visible;
+    transition: opacity 0.5s ease-in, max-height 1s ease-in;
+  }
+  
